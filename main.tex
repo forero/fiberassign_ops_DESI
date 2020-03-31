@@ -2,14 +2,13 @@
 \usepackage[utf8]{inputenc}
 
 \title{DESI fiberassign during survey operations}
-\author{J. E. Forero-Romero}
 \date{March 2020}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
+\section{Expected tasks}
 
 
 The \textbf{Survey Operations} plan includes both Survey Validation
@@ -23,11 +22,11 @@ lists four major areas:
     \item Nightwatch and Exposure Time Calculator
 \end{itemize}
 
-Fiberassignment is explicitly included under item \textbf{Survey Management}
+Fiberassign is explicitly included under  \textbf{Survey Management}
 with the following tasks:
 
 \begin{enumerate}
-\item Run the fiberassignment code to provide assignments of fibers to
+\item Run the fiberassign code to provide assignments of fibers to
   input targets, stars (calibration and guide/focus arrays) and sky
   locations. 
 
@@ -45,19 +44,21 @@ with the following tasks:
   during operations. 
 \end{enumerate}
 
+\section{Current Status}
 
-During \textbf{Survey Validation} (SV0, March 2020) tasks 1 and 5 were 
-already performed (Sarah and Ted.)
+\begin{itemize}
+\item During Survey Validation (SV0, March 2020) Task 1 was routinely performed (Sarah).
 
-There are end-to-end simulation work to follow up on task 2 (Jaime).
+\item There is end-to-end simulation work to start tackling Task 2 (Jaime).
 
-There is work in progress with the Lya QSO working group to explore
-and implement changes that address task 3 (Jaime).
+\item There is work in progress with the Lya QSO working group to explore and implement changes that address Task 3 (Jaime).
 
-First attempts to address 4 has been already peformedn on simulations
-(1\% survey) and SV0 data (Ashley).  
+\item First successful attempts to address Task 4 have been already performed on simulations (1\% survey) and SV0 data (Ashley). 
+
+\item Task 5 was continuously performed during commissioning and SV0 (Ted). 
+\end{itemize}
  
-\section*{Questions}
+\section{Questions}
 
 \begin{enumerate}
 \item What is the expected cadence to update the Merged Target List
@@ -67,7 +68,7 @@ First attempts to address 4 has been already peformedn on simulations
 \item What is the actual plan to update and freeze a new MTL that
   will be fed to fiberassign?
 \item There are 29 open issues on the fiberassign repo (March 31,
-  2020). What is their priority?
+  2020). What are their relative priorities?
 \end{enumerate}
 
 \end{document}
